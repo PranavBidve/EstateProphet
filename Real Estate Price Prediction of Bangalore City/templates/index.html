@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Price Prediction of Bangalore</title>
+
+    <style>
+        body {
+            background-image: url("https://imgs.search.brave.com/OGxo6hRbheXF-MUrS_KGJSscQ1-_Y_InGKvC5htjXL8/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly93d3cu/aG9tem5zcGFjZS5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTQvMDEvS29sdGUt/UGF0aWwtTWlyYWJp/bGlzLmpwZw");
+            background-repeat: no-repeat;
+            background-size: 100%;
+        
+
+        }
+    </style>
+
+    <script>
+        function display()
+        {
+
+
+        }
+        
+    </script>
+</head>
+
+<body>
+
+
+    <h1 style="color: white; background-color:black; text-align: center; margin-top: 0px;"> Predict the prices of your
+        city Bangalore!!
+    </h1>
+
+    <center style="margin-top: 10px;">
+        <div style="background-color: rgb(154, 154, 154);  width: 30%; opacity: 0.8; border-radius: 20px;margin-top: 200px;">
+            <form action="{{ url_for('submit')}}" method="post" style="padding: 10px;">
+
+                <label for="area" style="font-weight: 700;"> Area (Square feet) </label>
+                <br>
+                <input type="text" name="area" id="area" style="border-left: 0; border-right:0; border-top: 0; outline: none; background-color: rgb(194, 194, 194);">
+                <br><br>
+                <label for="bhk" style="font-weight: 700;"> BHK </label>
+                <br>
+                <input type="text" name="bhk" id="bhk" style="border-left: 0; border-right:0; border-top: 0; outline: none; background-color: rgb(194, 194, 194);">
+                <br><br>
+                <label for="bath" style="font-weight: 700;"> Bath </label>
+                <br>
+                <input type="text" name="bath" id="bath" style="border-left: 0; border-right:0; border-top: 0; outline: none; background-color: rgb(194, 194, 194);">
+                <br><br>
+                <label for="location" style="font-weight: 700;"> Location </label>
+                <br>
+                <input type="text" name="location" id="location" style="border-left: 0; border-right:0; border-top: 0; outline: none; background-color: rgb(194, 194, 194);">
+                <br><br>
+                <input type="submit" name="submit" id="submit" onclick="display()">
+            </form>
+        </div>
+    
+        <br><br>
+
+    <div style="margin: 10px; background-color:green; color: whitesmoke; width: 10%; border-radius: 10px; font-size: 2rem;" >
+
+        <!-- {{ prediction_text }} -->
+
+        
+
+    </div>
+
+    </center>
+
+</body>
+
+</html>
