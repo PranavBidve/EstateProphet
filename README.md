@@ -202,3 +202,12 @@ The working looks like this -
 ![](Aspose.Words.929b8c9f-1625-4088-9b6b-33e4eb2aa8df.017.jpeg)
 
 ![](Aspose.Words.929b8c9f-1625-4088-9b6b-33e4eb2aa8df.018.jpeg)
+
+**Conclusion**  
+
+The main goal of this project is to determine the house price prediction  which we have successfully done using different machine learning algorithms like a Linear Regression, Lasso, and Decision Tree.  
+It is quite evident from our evaluation that the Linear Regression model has more accuracy in prediction when compared to the others. Moreover, our  project provides a way to find the attributes contribution in prediction. Hence  we could conclude that  this project would  be helpful to a variety of people. The above models of prediction are very efficient from the point of view of linearly dependent data. Thus we use the linear regression techniques. 
+
+
+
+
